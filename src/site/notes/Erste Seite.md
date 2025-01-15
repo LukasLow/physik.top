@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/erste-seite/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
-Hallo das ist ein Test. na
+Hallo das ist ein Test. na. Wie sieht es aus?
 OK nun [[teste\|teste]] ich mal weiter
 
 
