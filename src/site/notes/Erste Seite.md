@@ -2,296 +2,434 @@
 {"dg-publish":true,"permalink":"/erste-seite/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
-Hallo das ist ein Test. na. Wie sieht es aus?
-OK nun [[teste\|teste]] ich mal weiter
+# Mega Markdown Beispiel für Obsidian
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-  <iframe 
-    src="https://www.youtube.com/embed/xvFZjo5PgG0?si=YMGShHsppNg5zHY7" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-    allowfullscreen>
-  </iframe>
-</div>
+## Einleitung
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. **Nulla facilisi**. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. ~~Sed posuere consectetur est~~ at lobortis. Hier ist ein Link zu [Obsidian](https://obsidian.md).
 
+> "Ein gutes Zitat passt überall hin." – Unbekannt
 
-$$ 4 + 3x = 0 $$
-$$ 3x = -4  $$
-$$ x = 4/3 $$
+Ergänzend dazu: Fusce dapibus tellus ac cursus commodo. Cras mattis consectetur purus sit amet fermentum. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
 
+---
 
+## Abschnitt 1: Tabellen
 
-Das war etwas [[Mathe\|Mathe]].
+Hier ist eine Tabelle:
+
+| Spalte 1 | Spalte 2 | Spalte 3                    |
+| -------- | -------- | --------------------------- |
+| Wert 1   | Wert 2   | Wert 3                      |
+| **Bold** | *Italic* | [Link](https://example.com) |
+| Zeile 3  | Zeile 4  | Zeile 5                    |
+
+Erweiterung der Tabelle:
+
+| Neue Spalte 1 | Neue Spalte 2 |
+| ------------- | ------------- |
+| Daten 1       | Daten 2       |
+
+---
+
+## Abschnitt 2: Listen
+
+### Geordnete Liste
+
+1. Punkt eins
+2. Punkt zwei
+   1. Unterpunkt
+   2. Unterpunkt
+3. Punkt drei
+4. Punkt vier
+
+### Ungeordnete Liste
+
+- Punkt A
+- Punkt B
+  - Subpunkt
+  - Subpunkt
+- Punkt C
+- Punkt D
+
+Zusätzliche Punkte:
+
+- Punkt E
+- Punkt F
+
+---
+
+## Abschnitt 3: Codeblöcke
+
+Inline-Code: `print("Hello, World!")`
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Obsidian")
+
+for i in range(5):
+    print(i)
+```
+
+Erweiterte Beispiele:
+
+```javascript
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+
+greet("Obsidian");
+```
+
+---
+
+## Abschnitt 4: Diagramme
+
+```mermaid
+graph TD
+    A[Start] --> B[Prozess 1]
+    B --> C{Entscheidung}
+    C -->|Ja| D[Ergebnis 1]
+    C -->|Nein| E[Ergebnis 2]
+    D --> F[Ende]
+    E --> F[Ende]
+```
+
+Weitere Diagrammideen:
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>Bob: Hallo Bob
+    Bob-->>Alice: Hallo Alice
+```
+
+---
+
+## Abschnitt 5: Medien
+
+### Bild
+
+![Bildbeschreibung](https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo.svg)
+
+### Video
+
+```markdown
+![[BeispielVideo.mp4]]
+```
+
+### Audio
+
+```markdown
+![[BeispielAudio.mp3]]
+```
+
+Weitere Medienideen:
+
+```markdown
+![[ZusätzlicheMedien.png]]
+```
+
+---
+
+## Abschnitt 6: Callouts
+
+> [!info] Info
+> Das ist ein informativer Hinweis.
+
+> [!warning] Warnung
+> Achtung, dies ist eine Warnung.
+
+Ergänzende Callouts:
+
+> [!tip] Tipp
+> Hier ist ein hilfreicher Tipp.
+
+> [!example] Beispiel
+> Dies ist ein konkretes Beispiel.
+
+---
+
+## Abschnitt 7: Iframes
+
+### YouTube Video
+
+```markdown
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+```
+
+### Webseite
+
+```markdown
+<iframe src="https://obsidian.md" width="100%" height="500px"></iframe>
+```
+
+Zusätzliche Iframe-Ideen:
+
+```markdown
+<iframe src="https://example.com" width="100%" height="400px"></iframe>
+```
+
+---
+
+## Abschnitt 8: Aufgaben
+
+- [x] Aufgabe 1
+- [ ] Aufgabe 2
+- [ ] Aufgabe 3
+- [ ] Aufgabe 4: Ergänzung
+
+Zusätzliche Aufgaben:
+
+- [ ] Aufgabe 5: Neue Idee
+- [ ] Aufgabe 6: Weiterentwicklung
+
+---
+
+## Abschnitt 9: Mathematische Formeln
+
+Inline: $E = mc^2$
+
+Block:
 
 $$
-\begin{aligned}
-4 + 3x &= 0 \\
-3x &= -4 \\
-x &= \frac{4}{3}
-\end{aligned}
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
 
+Weitere Formeln:
 
+$$
+a^2 + b^2 = c^2
+$$
 
-
-- Was ist Lernen? (Was bedeutet das eigentlich? Wann und wo findet es statt? Was gehört alles dazu? Ist Lernen erlernbar?)
-	- Lernen ist ...
-		- der Erwerb einer neuen Fähigkeit
-		- das Merken von Sachen (Formeln, Wörter usw)
-	- Lernen ein prozess der dauerhaft und meistens unbewusst im Gehirn statt findet.
-		- zb die Augen gucken meisten nach Unten. Niemand denkt immer grade nach wo man hinschauen soll, unbewusst wurde gelernt, auf Horizontalerebene und tiefer ist es besser hinzuschauen. 
-	- Gelernt wird immer, somit ist muss man die Grundfähigkeit des lernes, nicht noch erwerben. Jedoch kann man in den eigenen Lernerfolgen sehen welche methodiken besondes gute erfolge zeigten und welche nicht und so sich in der Fähigkeit des Lernen verbessern.
--  Was ist eine Lern-Strategie? (Wie läßt sich "strategisch" mit den Stichworten zu Frage 1 umgehen? Was gehört alles dazu? Wie könnte vorgegangen werden? Was sollte sich am Ende des Semesters in meinem Lern-Werkzeugkasten finden?)
-	- Eine Lernstrategie ist ein bewusster, geplanter und organisierter Ansatz, um Informationen aufzunehmen, zu verstehen und zu behalten.
-	- Einige Methoden,um den Prozess des Lernen effektiver zu gestellten, um mehr in weniger Zeit zu lernen.
-	- Eine Möglichkeit zu haben etwas zu lernen was einem (noch) kein Spaß macht und weniger darauf zu setzen sich dazu zu zwingen, um einen Test zu bestehen.
--  Was möchte ich in diesem Kurs insbesondere mitnehmen? (Was möchte ich am Ende des Semesters gerne rückblickend über den Kurs und über mein Lernen zu mir selber sagen?)
-	- Ich möchte später nicht mehr zu mir sagen müssen, dass ich es nicht schaffe, etwas zulernen, weil etwas zu schwer ist und ich daher zu lang brauche um es zu verstehen/merken.
-
-
-$frac{kg^2}{m^2} k g 2 m 2$ 
-LaTeX: $frac{kg^3}{m~s^2} k g 3 m s 2$ 
-LaTeX: $frac{F~r^2}{M~m} F r 2 M m$ 
-LaTeX: $frac{m^3}{kg~s^2} m 3 k g s 2$
-
-$F = ma$
-
-$\begin{aligned} & \Phi(x)=\frac{1}{2} M_x\left(\left[\sqrt{\left(\frac{1}{2} L-x\right)^2+{r_1^{\prime}}^2}\right]_0^R\right)-\frac{1}{2} M_x\left(\left[\sqrt{\left(\frac{1}{2} L+x\right)^2+{r_2^{\prime}}^2}\right]_0^R\right) \\ = & \frac{1}{2} M_x\left(\sqrt{\left(\frac{1}{2} L-x\right)^2+R^2}-\sqrt{\left(\frac{1}{2} L-x\right)^2}-\sqrt{\left(\frac{1}{2} L+x\right)^2+R^2}+\sqrt{\left(\frac{1}{2} L+x\right)^2}\right) . \\ = & \frac{1}{2} M_x\left(\sqrt{\left(\frac{1}{2} L-x\right)^2+R^2}-\left|\frac{1}{2} L-x\right|-\sqrt{\left(\frac{1}{2} L+x\right)^2+R^2}+\left|\frac{1}{2} L+x\right|\right) .\end{aligned}$
-
-$\omega$
-
-
-
-
-SM = Standard Model
-PP = Particle Phyiscs
-TP = Teilchen Physics
-
-
-Natürlich! Hier ist eine detaillierte Aufteilung der Absätze und Seitenanzahl für jeden Abschnitt deiner Hausarbeit. Dies sollte dir helfen, die Arbeit gleichmäßig und sinnvoll zu strukturieren. Angenommen, deine Hausarbeit umfasst insgesamt 10-15 Seiten:
-
-### 1. **Einleitung (1–1,5 Seiten)**
-   - **1.1 Motivation und Zielsetzung der Arbeit (0,5 Seite)**
-     - **Absätze:** 2
-   - **1.2 Relevanz der B-Tagging-Algorithmen im ATLAS-Experiment (0,5 Seite)**
-     - **Absätze:** 1-2
-   - **1.3 Aufbau der Arbeit (0,5 Seite)**
-     - **Absätze:** 1
-
-### 2. **Hintergrundwissen (1,5–2 Seiten)**
-   - **2.1 Das ATLAS-Experiment am Large Hadron Collider (LHC) (0,5 Seite)**
-     - **Absätze:** 2
-   - **2.2 Grundlagen der B-Jet-Physik (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-   - **2.3 Bedeutung des B-Tagging in der Teilchenphysik (0,5 Seite)**
-     - **Absätze:** 2
-
-### 3. **B-Tagging Algorithmen und ihre Entwicklung (2–2,5 Seiten)**
-   - **3.1 Übersicht über B-Tagging Methoden (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-   - **3.2 Physikalische Variablen und Merkmale in der B-Jet-Erkennung (1 Seite)**
-     - **Absätze:** 3-4
-   - **3.3 Historische Entwicklung der B-Tagging Algorithmen (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-
-### 4. **Maschinelles Lernen im B-Tagging (2,5–3 Seiten)**
-   - **4.1 Einsatz von maschinellen Lernverfahren im ATLAS-Experiment (0,5 Seite)**
-     - **Absätze:** 2
-   - **4.2 Vergleich zwischen klassischen Algorithmen und ML-Ansätzen (0,75–1 Seite)**
-     - **Absätze:** 3-4
-   - **4.3 Beschreibung der in den Literaturquellen verwendeten ML-Modelle (1–1,5 Seiten)**
-     - **Absätze:** 3-5
-     - **4.3.1 Details zu den ML-Algorithmen (0,5–1 Seite)**
-       - **Absätze:** 2-3
-     - **4.3.2 Unterschiede zwischen älteren und neueren Ansätzen (0,5–0,75 Seite)**
-       - **Absätze:** 2-3
-
-### 5. **Analyse der Literatur und Stand der Technik (1,5–2 Seiten)**
-   - **5.1 Zusammenfassung der in den bereitgestellten Quellen dargestellten Ergebnisse (0,5 Seite)**
-     - **Absätze:** 2
-   - **5.2 Stärken und Schwächen der beschriebenen Algorithmen (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-   - **5.3 Aktuelle Herausforderungen und Forschungsfragen (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-
-### 6. **Mögliche Weiterentwicklungen und Verbesserungen (1,5–2 Seiten)**
-   - **6.1 Potenziale für die Verbesserung der B-Tagging Algorithmen durch neue Datenwissenschaftliche Methoden (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-   - **6.2 Vorschläge für zukünftige Forschungsrichtungen (0,5–0,75 Seite)**
-     - **Absätze:** 2-3
-   - **6.3 Herausforderungen und offene Fragen für die weitere Forschung (0,5 Seite)**
-     - **Absätze:** 2
-
-### 7. **Zusammenfassung und Ausblick (1 Seite)**
-   - **7.1 Kernergebnisse der Arbeit (0,5 Seite)**
-     - **Absätze:** 2
-   - **7.2 Bedeutung der Ergebnisse für die zukünftige Forschung im B-Tagging (0,25 Seite)**
-     - **Absätze:** 1
-   - **7.3 Mögliche Anwendungen der Ergebnisse in anderen Bereichen der Physik (0,25 Seite)**
-     - **Absätze:** 1
-
-### 8. **Literaturverzeichnis**
-   - **Absätze:** Variabel, abhängig von der Anzahl der zitierten Werke
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$
 
 ---
 
-### Gesamtübersicht:
-- **Einleitung:** 1–1,5 Seiten (4–5 Absätze)
-- **Hintergrundwissen:** 1,5–2 Seiten (6–8 Absätze)
-- **B-Tagging Algorithmen und ihre Entwicklung:** 2–2,5 Seiten (7–10 Absätze)
-- **Maschinelles Lernen im B-Tagging:** 2,5–3 Seiten (7–10 Absätze)
-- **Analyse der Literatur und Stand der Technik:** 1,5–2 Seiten (6–8 Absätze)
-- **Mögliche Weiterentwicklungen und Verbesserungen:** 1,5–2 Seiten (6–8 Absätze)
-- **Zusammenfassung und Ausblick:** 1 Seite (4 Absätze)
+## Abschnitt 10: Tags und interne Links
 
-Das ergibt insgesamt etwa 10-13 Seiten. Je nach Detaillierungsgrad und Schriftgröße könnte es sich auf 15 Seiten erweitern. Diese Struktur bietet dir eine solide Grundlage, die du je nach Bedarf anpassen kannst.
+### Tags
+
+- #Markdown
+- #Obsidian/Beispiel
+- #NeueIdeen
+
+### Interne Links
+
+- Verweis auf eine andere Notiz: [[Andere Notiz\|Andere Notiz]]
+- Verweis auf eine Überschrift: [[Erste Seite#Abschnitt 8: Aufgaben\|#Abschnitt 8: Aufgaben]]
+- Verweis auf einen neuen Bereich: [[Neue Notiz\|Neue Notiz]]
+
+---
+
+## Abschnitt 11: Foldable Sections
+
+<details>
+<summary>Klicke hier, um mehr zu sehen</summary>
+
+Dies ist ein ausklappbarer Bereich.
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+
+Weitere Inhalte:
+
+- Punkt 4
+- Punkt 5
+
+</details>
+
+---
+
+## Abschnitt 12: YAML Frontmatter
+
+```yaml
+---
+Titel: Mega Markdown Beispiel
+Autor: Benutzer
+Tags: [Obsidian, Markdown, Beispiel]
+Datum: 2025-01-26
+ZusätzlicheInformationen: Erweiterter Inhalt
+---
+```
+
+---
+
+## Abschließender Abschnitt
+
+Vielen Dank fürs Testen! 🎉
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at lectus ut tortor placerat vehicula in a neque. Integer nec nulla ac lacus sollicitudin fermentum. Fusce dapibus tellus ac cursus commodo.
+
+Erweiterte Inhalte:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+
+
+
+
+# Obsidian Markdown Beispiel
+
+## 1. **Textformatierung**
+- **Fett:** **Dies ist fett**
+- *Kursiv:* *Dies ist kursiv*
+- ~~Durchgestrichen:~~ ~~Dies ist durchgestrichen~~
+- **_Kombiniert:_** **_Fett und kursiv_**
+
+---
+
+## 2. **Interne Links**
+- Link zu einer anderen Notiz: [[Andere Notiz\|Andere Notiz]]
+- Link zu einer Überschrift in derselben Notiz: [[Erste Seite#3. Tabellen\|#3. Tabellen]]
+- Link zu einer spezifischen Stelle in einer anderen Notiz: [[Andere Notiz#Ein bestimmter Abschnitt\|Andere Notiz#Ein bestimmter Abschnitt]]
+
+---
+
+## 3. **Tabellen**
+| Spalte 1       | Spalte 2        | Spalte 3        |
+|-----------------|-----------------|-----------------|
+| Daten 1        | Daten 2         | Daten 3         |
+| **Fett Daten** | *Kursiv Daten*  | [Link](https://obsidian.md) |
+
+---
+
+## 4. **Tags**
+- #Ideen
+- #Wichtig
+- #Markdown/Obsidian
+
+---
+
+## 5. **Checkboxen**
+- [x] Aufgabe 1 erledigt
+- [ ] Aufgabe 2 in Bearbeitung
+- [ ] Aufgabe 3 noch offen
+
+---
+
+## 6. **Bilder und Anhänge**
+### Lokales Bild
+![Lokales Bild](attachment/LokalesBild.png)
+
+### Bild von einer URL
+![Online Bild](https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo.svg)
+
+---
+
+## 7. **Iframe**
+### YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
+### Webseiten-Einbindung
+
+<iframe src="https://obsidian.md" width="100%" height="500px"></iframe>
 
 
 ---
 
+## 8. **Codeblöcke**
+### Inline-Code
+`console.log("Hello Obsidian!")`
 
-
-Es freut mich, dass du Unterstützung bei der Erstellung deiner Hausarbeit suchst! Auf Grundlage der Anforderungen aus dem Bild und den Hinweisen deines Professors könnte deine Hausarbeit folgendermaßen strukturiert werden. Diese Struktur kann auch als Inhaltsverzeichnis dienen:
-
-### Inhaltsverzeichnis
-
-1. **Einleitung**
-   - 1.1 Motivation und Zielsetzung der Arbeit
-   - 1.2 Relevanz der B-Tagging-Algorithmen im ATLAS-Experiment
-   - 1.3 Aufbau der Arbeit
-
-2. **Hintergrundwissen**
-   - 2.1 Das ATLAS-Experiment am Large Hadron Collider (LHC)
-   - 2.2 Grundlagen der B-Jet-Physik
-   - 2.3 Bedeutung des B-Tagging in der Teilchenphysik
-
-3. **B-Tagging Algorithmen und ihre Entwicklung**
-   - 3.1 Übersicht über B-Tagging Methoden
-   - 3.2 Physikalische Variablen und Merkmale in der B-Jet-Erkennung
-   - 3.3 Historische Entwicklung der B-Tagging Algorithmen
-
-4. **Maschinelles Lernen im B-Tagging**
-   - 4.1 Einsatz von maschinellen Lernverfahren im ATLAS-Experiment
-   - 4.2 Vergleich zwischen klassischen Algorithmen und ML-Ansätzen
-   - 4.3 Beschreibung der in den Literaturquellen verwendeten ML-Modelle
-     - 4.3.1 Details zu den ML-Algorithmen (basierend auf der aktuellen Literatur)
-     - 4.3.2 Unterschiede zwischen älteren und neueren Ansätzen
-
-5. **Analyse der Literatur und Stand der Technik**
-   - 5.1 Zusammenfassung der in den bereitgestellten Quellen dargestellten Ergebnisse
-   - 5.2 Stärken und Schwächen der beschriebenen Algorithmen
-   - 5.3 Aktuelle Herausforderungen und Forschungsfragen
-
-6. **Mögliche Weiterentwicklungen und Verbesserungen**
-   - 6.1 Potenziale für die Verbesserung der B-Tagging Algorithmen durch neue Datenwissenschaftliche Methoden
-   - 6.2 Vorschläge für zukünftige Forschungsrichtungen
-   - 6.3 Herausforderungen und offene Fragen für die weitere Forschung
-
-7. **Zusammenfassung und Ausblick**
-   - 7.1 Kernergebnisse der Arbeit
-   - 7.2 Bedeutung der Ergebnisse für die zukünftige Forschung im B-Tagging
-   - 7.3 Mögliche Anwendungen der Ergebnisse in anderen Bereichen der Physik
-
-8. **Literaturverzeichnis**
+### Mehrzeiliger Codeblock
+```python
+def greet():
+    print("Hallo, Obsidian!")
+greet()
+```
 
 ---
 
-### Hinweise zur Bearbeitung:
+## 9. **Diagramme mit Mermaid**
+```mermaid
+graph TD
+    A[Start] --> B[Prozess 1]
+    B --> C{Entscheidung}
+    C -->|Ja| D[Ergebnis 1]
+    C -->|Nein| E[Ergebnis 2]
+```
 
-- **Einleitung**: Stelle sicher, dass du die Motivation und Zielsetzung klar formulierst, warum das B-Tagging wichtig ist und wie es in die größere Datenwissenschaft passt.
-- **Hintergrundwissen**: Hier erläuterst du die Grundlagen, die für das Verständnis notwendig sind.
-- **B-Tagging Algorithmen und ihre Entwicklung**: Beschreibe die Entwicklung und die technischen Aspekte der Algorithmen. Die von deinem Professor empfohlenen Abschnitte aus den Papern könnten hier sehr hilfreich sein.
-- **Maschinelles Lernen im B-Tagging**: Konzentriere dich auf den Einsatz von ML, wie in den Papern beschrieben, und vergleiche alte und neue Ansätze.
-- **Analyse der Literatur**: Gehe hier detailliert auf die Ergebnisse der Literatur ein und diskutiere sie.
-- **Mögliche Weiterentwicklungen**: Denke hier kreativ darüber nach, wie ML-Methoden weiterentwickelt werden könnten, um B-Tagging zu verbessern.
-- **Zusammenfassung und Ausblick**: Fasse alles zusammen und gib einen Ausblick auf zukünftige Forschungsfelder.
+---
 
-Diese Struktur deckt alle Anforderungen ab, die in den Anforderungen und der Email deines Professors genannt wurden. Falls du spezifische Fragen hast oder Hilfe bei einem bestimmten Abschnitt benötigst, lass es mich wissen!
+## 10. **Blockzitate**
+> Das ist ein Zitatblock.  
+> Unterstützt mehrere Zeilen und Formatierungen.
 
+---
 
+## 11. **Mathematische Formeln**
+Inline: \( E = mc^2 \)  
+Block:
+\[
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\]
 
+---
 
+## 12. **Audio und Video**
+### Audio
+```markdown
+![[BeispielAudio.mp3]]
+```
 
-# Einleitung
+### Video
+```markdown
+![[BeispielVideo.mp4]]
+```
 
-Einfaches finden neues b-b-b-b-banger yo
+---
 
-## Wochenberichte
+## 13. **Foldable Sections**
+<details>
+<summary>Klicke hier, um mehr zu sehen</summary>
 
-### Woche 1: [08.05 - 14-05.23]
+Dies ist ein ein- und ausklappbarer Bereich in Obsidian.
 
-Ich habe leider die ersten Tage nicht Dokumentiert habe mich aber für GitLab für mein Repo entschieden und wollte GKE fürs Hosting verwenden
+- Punkt 1
+- Punkt 2
 
-#### Tag 1: [2023-05-13]
+</details>
 
-**Heutige Ziele:**
+---
 
-- CI/CD einrichten
+## 14. **Datumsreferenzen**
+- Heute: `{{date}}`
+- Aktuelle Zeit: `{{time}}`
 
-**Fortschritt:**
+---
 
-- Nach Langen chatgpt und googln habe ich es geschaft Google Cloud Run einzurichten nun ist mein Repo live auf dem google cloud run.
-- Das hauptproblem lag darin das von Gitlab eingestellte json secrets file flasch war und dann brachte es noch viewer rechte
+## 15. **Callouts**
+> [!info] Hinweis
+> Dies ist ein informativer Callout.
 
-**Reflexion:**
+> [!warning] Warnung
+> Achtung, dies ist ein Warnhinweis.
 
-- Was habe ich heute gelernt?
-	- Wenn ich in VSC einen Ordnername ändere wird dieser nicht unbedingt auf GitLab landen
-- Was hat gut funktioniert?
-	- Konnte das Problem immer besser kleiner machen und es festmachen das verzeichnis "app" war auf meinem pc klein aber in der Cloud war der immer noch "App" 
-- Was könnte ich verbessern/was muss ich als nächstes machen?
-	- Ich sollte ein fix domain einrichten
-	- Review umgebungen
-	- Mich mit dem Konzepet von Braches vertrauter machen
-	- In Gitlab enviroments das einbinden
+---
 
-#### Tag 2: [Datum]
+## 16. **Zusammenfassungen (YAML Frontmatter)**
+```yaml
+---
+Titel: Beispiel für Obsidian
+Autor: Benutzer
+Tags: [Obsidian, Markdown, Beispiel]
+Erstellt: {{date}}
+---
+```
 
-**Heutige Ziele:**
+---
 
-- Ziel 1
-- Ziel 2
-- Ziel 3
-
-**Fortschritt:**
-
-- Erreichtes Ziel 1
-- Erreichtes Ziel 2
-- Probleme und Lösungen
-
-**Reflexion:**
-
-- Was habe ich heute gelernt?
-- Was hat gut funktioniert?
-- Was könnte ich verbessern?
-
-
-
-### Woche 2: [Datum - Datum]
-
-#### Tag 1: [Datum]
-
-**Heutige Ziele:**
-
-- Ziel 1
-- Ziel 2
-- Ziel 3
-
-**Fortschritt:**
-
-- Erreichtes Ziel 1
-- Erreichtes Ziel 2
-- Probleme und Lösungen
-
-**Reflexion:**
-
-- Was habe ich heute gelernt?
-- Was hat gut funktioniert?
-- Was könnte ich verbessern?
+Viel Spaß beim Erkunden aller Funktionen in **Obsidian**!
 
 
-
-
-## Fazit
-
-Fasse hier die wichtigsten Erkenntnisse und Erfahrungen aus der gesamten Entwicklungsphase zusammen. Reflektiere, was du während des Projekts gelernt hast, und diskutiere mögliche zukünftige Verbesserungen oder Erweiterungen der App.
+Das Beispiel deckt nahezu alle wichtigen Funktionen ab, die in Obsidian verwendet werden können. Passe es gerne an deine spezifischen Bedürfnisse an!
